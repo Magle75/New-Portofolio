@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -55,7 +55,7 @@ export const gridItems = [
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
-    spareImg: "/grid.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const projects = [
     title: "Profile Website Kecamatan Pasar Rebo",
     des: "Website Profile Company using ReactJs and Bootstrap Frameworks",
     img: "/projek3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/bootstrap-4.svg",],
+    iconLists: ["./re.svg", "./tail.svg", "./bootstrap-4.svg",],
     link: "https://magle75.github.io/InfoPasarRebo.github.io/",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "BantuinYuk Apps With React Native",
     des: "Skripsi Project Mobile App using React Native Frameworks, Firebase Database, and OpenStreetMap API",
     img: "/projek1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/react-native-1.svg", "/firebase-svgrepo-com.svg"],
+    iconLists: ["./next.svg", "./tail.svg", "./react-native-1.svg", "./firebase-svgrepo-com.svg"],
     link: "https://www.instagram.com/reel/CylPYALRFgh/?igshid=Zm8zZTh2anphNjM4",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Laundry Apps With React Native",
     des: "Laundry Apps using React Native, Firebase Database and React Redux",
     img: "/projek2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/react-native-1.svg", "/firebase-svgrepo-com.svg",],
+    iconLists: ["./re.svg", "./tail.svg", "./react-native-1.svg", "./firebase-svgrepo-com.svg",],
     link: "https://www.instagram.com/reel/CylOOp8xMW7/?igshid=Z3Y0cWJ4OHMxdWZj",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Altair Aquila Website",
     des: "Vtuber Website using NextJS TailwindCSS and Framer Motion.",
     img: "/projek4.png",
-    iconLists: ["/next.svg", "/tail.svg", "/framer-motion.svg"],
+    iconLists: ["./next.svg", "./tail.svg", "./framer-motion.svg"],
     link: "https://altair-aquila.vercel.app/",
   },
 ];
@@ -141,32 +141,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
+    img: "./host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
+    img: "./s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -176,28 +176,28 @@ export const workExperience = [
     title: "Frontend Engineer Intern",
     desc: "Assisted in the development of a web-based platform using Bootstrap Framework enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "Freelance Web Dev Project",
     desc: "Designed and developed Profile Website for client using NextJS Framework.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "./twit.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
   },
 ];
